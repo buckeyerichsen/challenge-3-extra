@@ -131,6 +131,7 @@ public class JobApp {
 
         }
         person.displaytext();
+        System.out.println(" ");
         counter =1;
         for(Education education : education1){
             System.out.println("Education " + counter);
@@ -139,6 +140,7 @@ public class JobApp {
             counter = counter + 1;
 
         }
+        System.out.println(" ");
         counter2 =1;
         for(Experience experience : experience1){
             System.out.println("Experience " + counter2);
@@ -146,6 +148,7 @@ public class JobApp {
 
             counter2 = counter2 + 1;
         }
+        System.out.println(" ");
         counter3 =1;
         for(Skills skills : skills1){
             System.out.println("Skills " + counter3);
